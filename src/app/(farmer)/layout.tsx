@@ -20,7 +20,7 @@ const geist = Geist({
 
 const navigationLinks: Navbar01NavLink[] = [
   { href: "/dashboard", label: "Dashboard" },
-  { href: "/digital-map", label: "Digital Map" },
+  { href: "/digital-twin", label: "Digital twin" },
 ];
 
 export default function DashboardLayout({
