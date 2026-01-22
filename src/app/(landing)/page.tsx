@@ -31,7 +31,7 @@ export default async function Home() {
             <Marquee />
           </div>
           <div className="bg-primary/70 text-primary-foreground relative z-20 my-auto flex h-150 flex-col items-center justify-center rounded-4xl p-20 text-center">
-            <h2 className="text-2xl font-bold text-balance md:text-4xl lg:text-6xl">
+            <h2 className="text-4xl font-bold text-balance md:text-4xl lg:text-6xl">
               KrishiVeda is smart farming at your fingertips.
             </h2>
             <p className="py-8 text-sm md:text-base">

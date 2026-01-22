@@ -10,10 +10,11 @@ const PrescriptionMap = dynamic(
   },
 );
 
-export default function Page() {
+export default function DigitalTwin() {
   return (
-    <div className="h-screen w-full p-4">
-      <div className="h-[600px] w-[600px] overflow-hidden rounded-lg border shadow-lg">
+    <div className="flex h-screen w-full flex-col items-center justify-center gap-2 p-4">
+      <h3 className="text-2xl font-bold">Your farm&apos;s digital twin</h3>
+      <div className="h-[600px] w-[80vw] overflow-hidden rounded-lg border shadow-lg">
         <PrescriptionMap />
       </div>
     </div>

@@ -32,7 +32,7 @@ const PrescriptionMap = () => {
   });
 
   return (
-    <div style={{ height: "100%", width: "100%", position: "relative" }}>
+    <div className="h-full w-full">
       {isLoading && (
         <div className="absolute inset-0 flex items-center justify-center bg-white/80">
           Loading map data...
@@ -42,10 +42,10 @@ const PrescriptionMap = () => {
         center={[22.02506, 78.94164]}
         zoom={17}
         scrollWheelZoom={false}
-        style={{ height: "100%", width: "100%" }}
+        style={{ height: "100%", width: "100%", zIndex:0 }}
       >
         <TileLayer url="https://mt0.google.com/vt/lyrs=s&x={x}&y={y}&z={z}" />
-        
+
         {data && (
           <GeoJSON
             key={JSON.stringify(data)}
